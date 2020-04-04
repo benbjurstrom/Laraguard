@@ -17,6 +17,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | TwoFactorAuthentication Model
+    |--------------------------------------------------------------------------
+    |
+    | When using the "TwoFactorAuthentication" trait from this package, we need
+    | to know which Eloquent model should be used to retrieve your two factor
+    | authentication records.
+    |
+    */
+
+    'model' => DarkGhostHunter\Laraguard\Eloquent\TwoFactorAuthentication::class,
+
+    /*
+    |--------------------------------------------------------------------------
     | Input name
     |--------------------------------------------------------------------------
     |
